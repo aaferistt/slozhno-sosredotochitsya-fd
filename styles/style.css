@@ -127,8 +127,8 @@
 }
 
 .highlight-text {
-  color: var(--subtitle-color);
-  background-color: var(--text-bg-color);
+  color: var(--col-txt);
+  background-color: var(--shadow-color-link);
 }
 
 .content-area {
@@ -231,7 +231,7 @@
   font-weight: 700;
   font-size: var(--font-size-footer);
   line-height: 23.4px;
-  text-shadow: 2px 2px var(--title-color-footer);
+  text-shadow: 2px 2px var(--shadow-color-link);
 }
 
 @media (width >=768px) {

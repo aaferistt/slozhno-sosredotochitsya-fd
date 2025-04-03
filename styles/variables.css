@@ -16,6 +16,7 @@
   --title-color-footer: #ff0070;
   --font-main: "IBM Plex mono";
   --subtitle-color: #000028;
+  --col-txt: #000028;
 }
 
 @media (width >= 768px) {
