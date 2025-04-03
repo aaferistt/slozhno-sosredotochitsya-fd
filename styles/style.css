@@ -1,13 +1,13 @@
-.page {  
-  background-attachment: fixed;
-  background-color: var(--background-color, #000028);
-  background-image: var(--background-image);
-  background-position: center;  
-  background-repeat: no-repeat;
-  background-size: cover;
+.page {
+  padding: 10px;
   font-family: var(--font-main, monospace);
   font-size: var(--font-main-size);
-  padding: 10px;
+  background-color: var(--background-color, #000028);
+  background-image: var(--background-image);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .header {
@@ -26,12 +26,12 @@
 .decorated-zone::before {
   content: "";
   position: absolute;
+  width: 25px;
+  height: 25px;
   border-inline-end: 1px solid var(--title-color);
   border-block-start: 1px solid var(--title-color);
   inset-inline-end: 0;
   inset-block-start: 0;
-  width: 25px;
-  height: 25px;
 }
 
 .decorated-zone::after {
@@ -154,9 +154,9 @@
 }
 
 .section__paragraph {
+  padding-top: 0.2px;
   color: var(--text-color);
   line-height: 130%;
-  padding-top: 0.2px;
 }
 
 .section__paragraph:not(:last-child) {
@@ -235,7 +235,6 @@
 }
 
 @media (width >=768px) {
-  
   .page {
     padding: 20px;
   }

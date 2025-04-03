@@ -1,28 +1,26 @@
 :root {
   --background-image: url(/images/cover-image-dark.png);
   --background-color: #000028;
-  --text-color: #F1B2CE;
-  --title-color-accent: #DB00FF;
-  --text-bg-color: #FF0070;
-  --title-color-header: #FF0070;
+  --text-color: #f1b2ce;
+  --title-color-accent: #db00ff;
+  --text-bg-color: #ff0070;
+  --title-color-header: #ff0070;
   --bottom-margin: 50px;
   --hover-button-color: rgba(255, 0, 112, 0.4);
-  --text-color-link: #F1B2CE;
+  --text-color-link: #f1b2ce;
   --font-size-footer: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --font-main-size: 18px;
-  --shadow-color-link: #FF0070;
-  --title-color: #FF0070;
+  --shadow-color-link: #ff0070;
+  --title-color: #ff0070;
   --font-size-header: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  --title-color-footer: #FF0070;
-  --font-main: 'IBM Plex mono';
+  --title-color-footer: #ff0070;
+  --font-main: "IBM Plex mono";
   --subtitle-color: #000028;
-  --gap-main: 20px;
 }
-
 
 @media (width >= 768px) {
   :root {
-    --font-size-footer: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem) ;
+    --font-size-footer: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
     --font-size-header: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
     --bottom-margin: 80px;
   }
