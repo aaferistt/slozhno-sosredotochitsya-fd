@@ -1,5 +1,5 @@
 :root {
-  --background-image-header: url(/images/cover-image-dark.png);
+  --background-image: url(/images/cover-image-dark.png);
   --background-color: #000028;
   --text-color: #F1B2CE;
   --title-color-accent: #DB00FF;
@@ -16,6 +16,7 @@
   --title-color-footer: #FF0070;
   --font-main: 'IBM Plex mono';
   --subtitle-color: #000028;
+  --gap-main: 20px;
 }
 
 
