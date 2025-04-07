@@ -19,10 +19,15 @@
   height: 100vh;
 }
 
-main.main {
+.main {
   padding: 10px;
   margin-bottom: 30px;
 }
+
+/* .main {
+  padding: 10px;
+  margin-bottom: 30px;
+} */
 
 .decor-frame {
   position: relative;
@@ -53,8 +58,10 @@ main.main {
 .recorder {
   position: absolute;
   inset-inline-end: 28px;
-  inset-block-start: 20px;
-  right: 50px;
+  /* inset-block-start: 20px;
+  right: 50px; */
+  inset-block-start: 10px;
+  right:38px;
 }
 
 .recorder::before {
@@ -246,10 +253,50 @@ main.main {
 
   }
 
+  .recorder {
+    right: 48px;
+    inset-block-start: 20px;
+  }
+
+  .footer::before {
+    inset-inline-end: 20px;
+    inset-block-start: 20px;
+  }
+
+  .footer::after {
+    inset-inline-start: 20px;
+    inset-block-end: 20px;
+  }
+
+  .main {
+    padding: 20px;
+    margin-bottom: 40px;
+  }
+  .decor-frame::after {
+    inset-inline-start: 20px;
+    inset-block-end: 20px;
+  }
+
+  .decor-frame::before {
+    inset-inline-end: 20px;
+    inset-block-start: 20px;
+  }
+
+  /* .recorder::after {
+    inset-inline-end: 20px;
+    inset-block-start: 20px;
+  } */
+
+  .recorder::before {
+    inset-inline-end: 20px;
+    inset-block-start: 20px;
+  }
+
   .header {
     height: 100vh;
     min-height: 668px;
     padding: 20px;
+    margin-block-end: 40px;
   }
 
   .header__main-title {

@@ -14,7 +14,7 @@
   --col-txt: #353430;
 }
 
-.theme-light .header__rec {
+.theme-light .recorder {
   display: none;
 }
 
@@ -31,11 +31,11 @@
     --shadow-color-link: #ff8dcb;
     --background-color: #FFF1F7;
     --hover-button-color:  rgba(50, 49, 45, 0.4);
-    --background-image-header: url(../images/cover-image-light.png);
+    --background-image: url(../images/cover-image-light.png);
     --col-txt: #353430;
     }
 
-  .header__rec {
+  .recorder {
     display: none;
   }
 }
