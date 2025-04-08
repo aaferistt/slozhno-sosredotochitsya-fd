@@ -140,6 +140,11 @@
   max-inline-size: 364px;
 }
 
+.tip-title {
+  font-style: normal !important;
+  font-weight: normal;
+}
+
 .highlight-text {
   color: var(--col-txt);
   background-color: var(--shadow-color-link);
