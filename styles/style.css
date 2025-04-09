@@ -141,7 +141,8 @@
 }
 
 .tip-title {
-  font-style: normal !important;
+  /* font-style: normal !important; */
+  font-style: normal;
   font-weight: normal;
 }
 
